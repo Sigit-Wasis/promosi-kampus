@@ -1,0 +1,75 @@
+/* Custom Styles */
+h1,
+h2,
+h3 {
+  font-weight: bold;
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+  font-size: 0.9rem;
+}
+
+/* Custom Header Styling */
+.custom-header {
+  background: linear-gradient(to bottom right, #f9c00c, #ff8800);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.logo-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.rotating-circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  /* Diameter lingkaran */
+  height: 300px;
+  border: 5px solid rgba(255, 255, 255, 0.5);
+  border-top: 5px solid #bf3e3e;
+  border-radius: 50%;
+  animation: rotate 3s linear infinite;
+  /* Animasi putaran */
+}
+
+.logo {
+  border: 5px solid white;
+  border-radius: 50%;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Animasi putaran */
+@keyframes rotate {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+.custom-header h1 {
+  margin-top: 50px;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.custom-header p {
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.3);
+}
