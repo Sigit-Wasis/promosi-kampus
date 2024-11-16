@@ -21,10 +21,12 @@
             <p class="lead text-light">
                 Pilihan terbaik untuk pendidikan berkualitas di Lampung
             </p>
-            <a href="#about" class="btn btn-dark btn-lg mt-3">Pelajari Lebih Lanjut</a>
+            <a href="#about" class="btn btn-dark btn-lg mt-3 shadow-sm px-4 py-2" role="button"
+                aria-label="Pelajari Lebih Lanjut">
+                <i class="bi bi-info-circle me-2"></i> Pelajari Lebih Lanjut
+            </a>
         </div>
     </header>
-
 
     <!-- About Section -->
     <section id="about" class="py-5 bg-light">
@@ -86,13 +88,49 @@
             </div>
         </div>
     </section>
-    
 
+    <!-- Program Details Section -->
+    <section id="program-details" class="py-5">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="mb-4 text-warning fw-bold">Keunggulan Program JSM</h2>
+                    <p class="text-secondary mb-5">
+                        Program Kuliah Sabtu dan Minggu (JSM) dirancang untuk memenuhi kebutuhan pendidikan bagi pekerja
+                        dan profesional.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="feature-card">
+                        <i class="bi bi-calendar-week"></i>
+                        <h4>Fleksibel</h4>
+                        <p>Kuliah hanya di akhir pekan, Sabtu dan Minggu.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="feature-card">
+                        <i class="bi bi-briefcase"></i>
+                        <h4>Dukungan Penuh</h4>
+                        <p>Materi yang relevan dengan dunia kerja.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="feature-card">
+                        <i class="bi bi-people"></i>
+                        <h4>Networking Luas</h4>
+                        <p>Mahasiswa profesional di berbagai bidang.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Header -->
     <header class="bg-warning py-4 text-center text-dark">
         <div class="container">
-            <h1 class="fw-bold">Bidang Ilmu dan Program Studi</h1>
+            <h1 class="fw-bold mt-3">Bidang Ilmu dan Program Studi</h1>
             <p class="lead">Universitas Satu Nusa Lampung</p>
         </div>
     </header>
@@ -110,47 +148,49 @@
                 keterampilan berbahasa dan sastra.
             </p>
 
-            <table class="table table-bordered">
-                <thead class="table-warning">
-                    <tr>
-                        <th>No</th>
-                        <th>Program Studi</th>
-                        <th>Program</th>
-                        <th>SK Pembukaan</th>
-                        <th>Akreditasi</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>Manajemen</td>
-                        <td>Sarjana (S1)</td>
-                        <td>245/E/O/2022</td>
-                        <td>Baik</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>Akuntansi</td>
-                        <td>Sarjana (S1)</td>
-                        <td>245/E/O/2022</td>
-                        <td>Baik</td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>Sastra Inggris</td>
-                        <td>Sarjana (S1)</td>
-                        <td>245/E/O/2022</td>
-                        <td>Baik</td>
-                    </tr>
-                    <tr>
-                        <td>4</td>
-                        <td>Perhotelan</td>
-                        <td>Diploma (D3)</td>
-                        <td>504/E/O/2024</td>
-                        <td>Baik</td>
-                    </tr>
-                </tbody>
-            </table>
+            <div class="table-responsive">
+                <table class="table table-bordered">
+                    <thead class="table-warning">
+                        <tr>
+                            <th>No</th>
+                            <th>Program Studi</th>
+                            <th>Program</th>
+                            <th>SK Pembukaan</th>
+                            <th>Akreditasi</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Manajemen</td>
+                            <td>Sarjana (S1)</td>
+                            <td>245/E/O/2022</td>
+                            <td>Baik</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Akuntansi</td>
+                            <td>Sarjana (S1)</td>
+                            <td>245/E/O/2022</td>
+                            <td>Baik</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Sastra Inggris</td>
+                            <td>Sarjana (S1)</td>
+                            <td>245/E/O/2022</td>
+                            <td>Baik</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Perhotelan</td>
+                            <td>Diploma (D3)</td>
+                            <td>504/E/O/2024</td>
+                            <td>Baik</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </section>
 
         <!-- Fakultas Ilmu Komputer -->
@@ -161,33 +201,35 @@
                 informasi untuk mendukung organisasi dan bisnis modern.
             </p>
 
-            <table class="table table-bordered">
-                <thead class="table-warning">
-                    <tr>
-                        <th>No</th>
-                        <th>Program Studi</th>
-                        <th>Program</th>
-                        <th>Keterangan</th>
-                        <th>Akreditasi</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>Informatika</td>
-                        <td>Sarjana (S1)</td>
-                        <td>Sarjana Komputer (S.Kom)</td>
-                        <td>Baik</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>Sistem Informasi</td>
-                        <td>Sarjana (S1)</td>
-                        <td>Sarjana Komputer (S.Kom)</td>
-                        <td>Baik</td>
-                    </tr>
-                </tbody>
-            </table>
+            <div class="table-responsive">
+                <table class="table table-bordered">
+                    <thead class="table-warning">
+                        <tr>
+                            <th>No</th>
+                            <th>Program Studi</th>
+                            <th>Program</th>
+                            <th>Keterangan</th>
+                            <th>Akreditasi</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Informatika</td>
+                            <td>Sarjana (S1)</td>
+                            <td>Sarjana Komputer (S.Kom)</td>
+                            <td>Baik</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Sistem Informasi</td>
+                            <td>Sarjana (S1)</td>
+                            <td>Sarjana Komputer (S.Kom)</td>
+                            <td>Baik</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </section>
 
         <!-- Fakultas Teknologi Pertanian -->
@@ -199,33 +241,69 @@
                 to the table").
             </p>
 
-            <table class="table table-bordered">
-                <thead class="table-warning">
-                    <tr>
-                        <th>No</th>
-                        <th>Program Studi</th>
-                        <th>Program</th>
-                        <th>Keterangan</th>
-                        <th>Akreditasi</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>Agroteknologi</td>
-                        <td>Sarjana (S1)</td>
-                        <td>Sarjana Pertanian (S.P.)</td>
-                        <td>Baik</td>
-                    </tr>
-                </tbody>
-            </table>
+            <div class="table-responsive">
+                <table class="table table-bordered">
+                    <thead class="table-warning">
+                        <tr>
+                            <th>No</th>
+                            <th>Program Studi</th>
+                            <th>Program</th>
+                            <th>Keterangan</th>
+                            <th>Akreditasi</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Agroteknologi</td>
+                            <td>Sarjana (S1)</td>
+                            <td>Sarjana Pertanian (S.P.)</td>
+                            <td>Baik</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </section>
     </main>
 
-    <!-- Footer -->
-    <footer class="bg-dark text-white py-4">
-        <div class="container text-center">
-            <p>&copy; 2024 Kampus Satu Nusa Lampung. All rights reserved.</p>
+
+    <!-- Footer Section -->
+    <footer class="bg-warning text-dark py-5">
+        <div class="container">
+            <div class="row">
+                <!-- Contacts -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <h5 class="fw-bold">Kontak Kami</h5>
+                    <p><i class="bi bi-telephone-fill me-2"></i> 0721-700123</p>
+                    <p><i class="bi bi-geo-alt-fill me-2"></i> Jl Zainal Abidin Pagar Alam No 17A<br>
+                        Rajabasa, Bandar Lampung, Lampung, Indonesia 35144</p>
+                    <p><i class="bi bi-envelope-fill me-2"></i> <a href="mailto:admin@usn-lampung.ac.id"
+                            class="text-dark text-decoration-none">admin@usn-lampung.ac.id</a></p>
+                </div>
+                <!-- About -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <h5 class="fw-bold">Tentang Kami</h5>
+                    <p>Kampus Satu Nusa Lampung berdedikasi untuk menyediakan pendidikan berkualitas dengan fasilitas
+                        modern dan tenaga pengajar terbaik.</p>
+                </div>
+                <!-- Quick Links -->
+                <div class="col-lg-4 col-md-12 mb-4">
+                    <h5 class="fw-bold">Tautan Cepat</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#about" class="text-dark text-decoration-none"><i class="bi bi-chevron-right"></i>
+                                Tentang Kami</a></li>
+                        <li><a href="#program-details" class="text-dark text-decoration-none"><i
+                                    class="bi bi-chevron-right"></i> Program JSM</a></li>
+                        <li><a href="#contact" class="text-dark text-decoration-none"><i
+                                    class="bi bi-chevron-right"></i> Hubungi Kami</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-12 text-center">
+                    <p class="mb-0">&copy; 2024 Kampus Satu Nusa Lampung. Semua Hak Dilindungi.</p>
+                </div>
+            </div>
         </div>
     </footer>
 

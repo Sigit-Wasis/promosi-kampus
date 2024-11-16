@@ -73,3 +73,24 @@ footer {
 .custom-header p {
   text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.3);
 }
+
+.feature-card {
+  background: rgba(var(--bs-warning-rgb), 0.1);
+  border-radius: 1rem;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  text-align: center;
+}
+.feature-card i {
+  font-size: 2.5rem;
+  color: rgba(var(--bs-warning-rgb), 1);
+}
+.feature-card h4 {
+  margin-top: 1rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.feature-card p {
+  font-size: 1rem;
+  color: #666;
+}
